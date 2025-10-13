@@ -1,4 +1,4 @@
-import parseIssueLineFile
+import parseIssueLine
 
 sampleLines = [
     "# Title",
@@ -11,5 +11,5 @@ sampleLines = [
 ]
 
 for sample in sampleLines:
-    parseResult = parseIssueLineFile.parseIssueLine(sample)
+    parseResult = parseIssueLine.parseIssueLine(sample)
     print(parseResult)
