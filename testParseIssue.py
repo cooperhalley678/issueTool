@@ -1,7 +1,7 @@
 import parseIssueLine
 import parseIssueLines
 
-sampleLines = [
+sampleLines=[
     "# Title",
     "## Section Title",
     "status: inProgress",
@@ -12,12 +12,12 @@ sampleLines = [
 ]
 
 for sample in sampleLines:
-    parseLineResult = parseIssueLine.parseIssueLine(sample)
+    parseLineResult=parseIssueLine.parseIssueLine(sample)
     print(parseLineResult)
 
 print()
 
-sampleIssue = """
+sampleIssue="""
 # dilithium-crytal-converter-v2
 
 This task is to build the v 2.0 converter for changing dilithium into batteries.
