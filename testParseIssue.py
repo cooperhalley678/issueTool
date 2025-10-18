@@ -1,6 +1,8 @@
 import parseIssueLine
 import parseIssueLines
 
+import json
+
 sampleLines=[
     "# Title",
     "## Section Title",
@@ -28,14 +30,14 @@ This task is to build the v 2.0 converter for changing dilithium into batteries.
 * [ ] purchase timespacers
   * [ ] identify number needed
   * [ ] create estimate 
-  * [ ] give to purchasing
+  * [x] give to purchasing
 * [ ] construct inner mechanism
   * [ ] finalize model
   * [ ] print in matter printer
 * [ ] construct out box with controls
-  * [ ] assemble inner mechanism into box
+  * [x] assemble inner mechanism into box
 * [ ] isolated lab test completely
-* [ ] attach automated inputs
+* [x] attach automated inputs
 * [ ] supervise automated test runs
 * [ ] get final checkoff
 
@@ -61,4 +63,4 @@ created: 2050-04-21
 sampleIssueLines=sampleIssue.split('\n')
 argsDictTest={'issueLines':sampleIssueLines}
 parseLinesResult=parseIssueLines.parseIssueLines(argsDictTest)
-print(parseLinesResult)
+print(json.dumps(parseLinesResult, indent=2))
