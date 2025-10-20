@@ -38,13 +38,13 @@ This task is to build the v 2.0 converter for changing dilithium into batteries.
   * [x] assemble inner mechanism into box
 * [ ] isolated lab test completely
 * [x] attach automated inputs
-* [ ] supervise automated test runs
+* [0] supervise automated test runs
 * [ ] get final checkoff
 
 ## Questions
 
 * [ ] Is it possible to create new dilithium transfer sub-network
-* [ ] Does spock need to review timespacers?
+* [?] Does spock need to review timespacers?
 
 
 ## Notes
