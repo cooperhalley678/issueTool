@@ -48,7 +48,6 @@ def parseIssueLine(issueLine):
                 "issueLine":issueLine,
                 **detailsDict
             }
-            print(lineMatches.groupdict())
             foundIssueLineDict = issueLineDict
             break # found it! first past the post
     
